@@ -27,6 +27,9 @@ include vendor/samsung/exynos9810-common/BoardConfigVendor.mk
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 OVERRIDE_TARGET_FLATTEN_APEX := false
 
+### DAP
+TARGET_HAVE_SAMSUNG_DAP := true
+
 ## Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
