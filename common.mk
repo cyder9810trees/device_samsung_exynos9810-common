@@ -285,6 +285,10 @@ PRODUCT_PACKAGES += \
     wifi.samsungexynos9810.rc \
     wifi_brcm.samsungexynos9810.rc
 
+# Livedisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service.samsung-exynos
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.contexthub@1.0.vendor:64 \
