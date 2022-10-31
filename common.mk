@@ -62,6 +62,10 @@ PRODUCT_PACKAGES += \
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
 
+# Touch HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.samsung
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5-service
