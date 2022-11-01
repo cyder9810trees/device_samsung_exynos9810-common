@@ -106,3 +106,6 @@ ro.frp.pst=/dev/block/persistent
 
 ### LOG
 persist.vendor.console.silent.config=1
+
+### Zygote
+zygote.critical_window.minute=10
