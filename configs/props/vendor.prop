@@ -103,3 +103,6 @@ ro.surface_flinger.use_color_management=true
 ### DEVELOPER SETTINGS
 # Disable invocation of oem_lock
 ro.frp.pst=/dev/block/persistent
+
+### LOG
+persist.vendor.console.silent.config=1
