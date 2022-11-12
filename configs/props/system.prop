@@ -7,8 +7,7 @@ ro.vendor.cscsupported=1
 ro.cmc.device_type=pd
 ro.cmc.version=2.0
 
-# SkiaGL
-debug.hwui.renderer=skiagl
+### Renderengine
 debug.renderengine.backend=threaded
 
 ### System
