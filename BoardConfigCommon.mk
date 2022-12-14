@@ -25,7 +25,6 @@ include vendor/samsung/exynos9810-common/BoardConfigVendor.mk
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
-OVERRIDE_TARGET_FLATTEN_APEX := false
 
 ### DAP
 TARGET_HAVE_SAMSUNG_DAP := true
@@ -78,6 +77,12 @@ TARGET_COPY_OUT_PRODUCT := system/product
 
 ## Fingerprint
 TARGET_SEC_FP_HAS_FINGERPRINT_GESTURES := true
+
+# Graphics
+USE_OPENGL_RENDERER := true
+
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
 
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image

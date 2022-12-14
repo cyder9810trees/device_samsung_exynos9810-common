@@ -1007,14 +1007,6 @@
         <item>com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService</item>
     </string-array>
 
-     <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
-     in hardware for individual layers. -->
-    <bool name="config_setColorTransformAcceleratedPerLayer">true</bool>
-
-    <!-- Maximum color temperature, in Kelvin, supported by Night display.
-     Setting this to track config_displayWhiteBalanceColorTemperatureDefault (currently 6500K). -->
-    <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
-
     <!-- Whether or not to enable the lock screen entry point for the QR code scanner. -->
     <bool name="config_enableQrCodeScannerOnLockScreen">true</bool>
 </resources>

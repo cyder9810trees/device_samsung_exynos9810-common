@@ -157,6 +157,12 @@
             "Value": "1248000"
         },
         {
+            "PowerHint": "LAUNCH",
+            "Node": "PMQoSCpuDmaLatency",
+            "Duration": 5000,
+            "Value": "44"
+        },
+        {
             "PowerHint": "CAMERA_LAUNCH",
             "Node": "CPUBigClusterMaxFreq",
             "Duration": 1000,
