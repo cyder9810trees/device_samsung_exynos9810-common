@@ -25,7 +25,7 @@ include vendor/samsung/exynos9810-common/BoardConfigVendor.mk
 
 # APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
-OVERRIDE_TARGET_FLATTEN_APEX := true
+OVERRIDE_TARGET_FLATTEN_APEX := false
 
 ## Architecture
 TARGET_ARCH := arm64
