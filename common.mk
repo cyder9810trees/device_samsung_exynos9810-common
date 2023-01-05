@@ -302,6 +302,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(COMMON_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
+    hardware/samsung \
     $(COMMON_PATH)/aidl/power-libperfmgr
 
 # Speed profile services and wifi-service to reduce RAM and storage
