@@ -16,6 +16,7 @@
             "Name": "CPULittleClusterMinFreq",
             "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq",
             "Values": [
+                "1794000",
                 "1248000",
                 "1053000",
                 "832000",
@@ -74,7 +75,7 @@
             "Name": "TASchedtuneBoost",
             "Path": "/dev/stune/top-app/schedtune.boost",
             "Values": [
-                "70",
+                "20",
                 "5"
             ],
             "ResetOnInit": true
@@ -124,37 +125,37 @@
             "PowerHint": "INTERACTION",
             "Node": "CPUBigClusterMinFreq",
             "Duration": 0,
-            "Value": "858000"
+            "Value": "1066000"
         },
         {
             "PowerHint": "INTERACTION",
             "Node": "CPULittleClusterMinFreq",
             "Duration": 0,
-            "Value": "832000"
+            "Value": "1248000"
         },
 		{
             "PowerHint": "INTERACTION",
             "Node": "TASchedtuneBoost",
             "Duration": 0,
-            "Value": "70"
+            "Value": "20"
         },
         {
             "PowerHint": "LAUNCH",
             "Node": "CPUBigClusterMaxFreq",
             "Duration": 5000,
-            "Value": "1794000"
+            "Value": "2704000"
         },
         {
             "PowerHint": "LAUNCH",
             "Node": "CPUBigClusterMinFreq",
             "Duration": 5000,
-            "Value": "1066000"
+            "Value": "1794000"
         },
         {
             "PowerHint": "LAUNCH",
             "Node": "CPULittleClusterMinFreq",
             "Duration": 5000,
-            "Value": "1248000"
+            "Value": "1794000"
         },
         {
             "PowerHint": "LAUNCH",
