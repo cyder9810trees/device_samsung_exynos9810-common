@@ -999,4 +999,6 @@
 
      <!-- Whether the combined qs shows in status bar -->
     <bool name="flag_combined_qs_headers">false</bool>
+
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
 </resources>
